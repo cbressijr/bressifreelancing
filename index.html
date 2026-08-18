@@ -213,27 +213,22 @@
       </div>
 
       <div class="contact-layout">
-        <form action="https://formspree.io/f/xdenwqaa" method="POST" id="contact-form">
-          <div class="form-row">
-            <label>Name</label>
-            <input id="name" required>
-          </div>
-
-          <div class="form-row">
-            <label>Email</label>
-            <input id="email" type="email" required>
-          </div>
-
-          <div class="form-row">
-            <label>Issue Description</label>
-            <textarea id="message" required></textarea>
-          </div>
-
-          <div class="form-footer">
-            <div id="form-status"></div>
-            <button class="btn-primary" type="submit">Submit</button>
-          </div>
-        </form>
+        <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xdenwqaa"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
         <div class="contact-info">
           <p><strong>Email:</strong> cbressijr@msn.com</p>
