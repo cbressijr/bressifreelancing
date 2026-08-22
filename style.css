@@ -176,4 +176,98 @@ header {
   margin-bottom: 10px;
 }
 
+/* Center the entire hero section */
+.hero-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+/* Center the text block */
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Cleaner hero title */
+.hero-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+/* Highlight styling */
+.hero-highlight {
+  color: #6a5acd; /* purple accent */
+  font-weight: 800;
+}
+
+/* Subtitle text */
+.hero-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Badges centered + spaced */
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.badge {
+  background: #222;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+/* Center action buttons */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Center the card */
+.hero-card-centered {
+  max-width: 350px;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f7f7f7;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hero-card-title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
 .hero-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.hero-card-list li {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+}
+
+.hero-card-footer {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
